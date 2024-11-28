@@ -3699,7 +3699,7 @@
 		(descr "nRF24L01 breakout board")
 		(tags "nRF24L01 adapter breakout")
 		(property "Reference" "U2"
-			(at 0 -3 360)
+			(at 0 -3 0)
 			(layer "F.SilkS")
 			(uuid "6bd66eb4-e4be-42be-9f95-e3a216269477")
 			(effects
@@ -3710,7 +3710,7 @@
 			)
 		)
 		(property "Value" "NRF24L01_Breakout"
-			(at 13 5 360)
+			(at 13 5 0)
 			(layer "F.Fab")
 			(uuid "83f5e890-c64d-44da-b195-9d9ce62526a8")
 			(effects
@@ -4037,7 +4037,7 @@
 			(uuid "7a706774-a97e-46fa-be40-a8b091ea48ca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 12.5 2.5 360)
+			(at 12.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "390a4a63-b28a-4929-9d14-d7b6b9093304")
 			(effects
