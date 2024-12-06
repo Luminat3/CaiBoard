@@ -296,168 +296,6 @@
 				)
 			)
 		)
-		(symbol "ScottoKeebs:Placeholder_Diode"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Diode"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Placeholder_Diode_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Placeholder_Diode_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ScottoKeebs:Placeholder_Keyswitch"
 			(pin_numbers hide)
 			(pin_names
@@ -1254,10 +1092,10 @@
 		(uuid "0333b645-df1c-43f4-b794-ed458cfcdb64")
 	)
 	(junction
-		(at 101.6 91.44)
+		(at 114.3 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "044b3328-b9e4-48e3-a9ac-6668633e0d92")
+		(uuid "14c95bec-c2f1-4042-889b-95598f89af4d")
 	)
 	(junction
 		(at 109.22 78.74)
@@ -1266,40 +1104,28 @@
 		(uuid "242520e7-f9e5-4606-b54e-0fa5bced6f3e")
 	)
 	(junction
-		(at 114.3 91.44)
+		(at 101.6 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4119ba94-200c-4388-ba2a-7a3a5fb07253")
+		(uuid "277e8259-25b5-494c-9c42-4b296cb60e34")
 	)
 	(junction
-		(at 114.3 132.08)
+		(at 114.3 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ce1839d-7c0c-44af-b3f2-3d9e479d9f39")
+		(uuid "2e057723-dc1c-4c8d-a85b-f36f28f3421e")
 	)
 	(junction
-		(at 101.6 132.08)
+		(at 114.3 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70a51378-6f9d-40e2-826f-79cb9b259229")
+		(uuid "32b41fc7-0110-4309-a87d-eb60aa911653")
 	)
 	(junction
-		(at 114.3 71.12)
+		(at 101.6 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90f91225-19fb-4a42-ab93-0ef20279336a")
-	)
-	(junction
-		(at 101.6 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9337bb67-412a-4355-bcc5-0d22edfac00c")
-	)
-	(junction
-		(at 114.3 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c43ca44-1d00-4296-8d39-2961a6da2fe4")
+		(uuid "53e4af8c-eb7c-4a25-b0ab-4de7d33a564d")
 	)
 	(junction
 		(at 96.52 78.74)
@@ -1326,16 +1152,28 @@
 		(uuid "cf7e7d13-e7cb-47fd-9236-3089d494f005")
 	)
 	(junction
-		(at 101.6 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d01de8a7-1746-464a-b228-4692ba13ad23")
-	)
-	(junction
 		(at 121.92 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d11cb159-7553-467d-a0d6-6ef3918e961c")
+	)
+	(junction
+		(at 101.6 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e184f691-b246-4e5d-b9b4-0dcc15c3c4ad")
+	)
+	(junction
+		(at 101.6 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2bf64a1-2725-440f-9bf4-25a269526d02")
+	)
+	(junction
+		(at 114.3 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f29a157d-757e-40d3-a86d-dd7bc98bc720")
 	)
 	(junction
 		(at 121.92 78.74)
@@ -1345,13 +1183,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 127 91.44)
+			(xy 114.3 63.5) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "147d43c1-9027-498d-b0ad-4ca7ed4a5bbe")
+		(uuid "178ae36e-b2a5-4e5c-881c-74f36d1f7fe3")
 	)
 	(wire
 		(pts
@@ -1365,17 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.08) (xy 114.3 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ab3a73-1a4f-4e96-8423-5239145b6628")
-	)
-	(wire
-		(pts
-			(xy 114.3 132.08) (xy 127 132.08)
+			(xy 88.9 124.46) (xy 101.6 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1395,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 101.6 91.44)
+			(xy 88.9 83.82) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1412,16 +1240,6 @@
 			(type default)
 		)
 		(uuid "4888b6f4-8636-425a-a079-7340ac5d8d06")
-	)
-	(wire
-		(pts
-			(xy 101.6 71.12) (xy 114.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a5787ba-41b3-4a4a-9717-4fdc80f10d96")
 	)
 	(wire
 		(pts
@@ -1445,23 +1263,43 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 114.3 111.76)
+			(xy 114.3 104.14) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aff2f51-fe3d-4ac6-9a80-41a74116722e")
+		(uuid "6925e6dc-ccf1-4c28-a9d1-31e5d3f1fc5f")
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 127 71.12)
+			(xy 101.6 104.14) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9b37b4-9e4f-4235-b0e6-10157ced1dec")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "710b572b-22af-498a-93de-7b84dd58353f")
+	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82774afd-5fb4-43fc-958a-10acce1800e5")
 	)
 	(wire
 		(pts
@@ -1485,16 +1323,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 101.6 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c95e99-c208-4574-ba63-1fa90c004b54")
-	)
-	(wire
-		(pts
 			(xy 96.52 78.74) (xy 96.52 99.06)
 		)
 		(stroke
@@ -1502,6 +1330,16 @@
 			(type default)
 		)
 		(uuid "9e9f9b20-7f42-4533-bbfd-0b7f4156045e")
+	)
+	(wire
+		(pts
+			(xy 101.6 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d1ae1b-11f7-4d35-82e7-f394ffa86b68")
 	)
 	(wire
 		(pts
@@ -1515,13 +1353,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 101.6 111.76)
+			(xy 101.6 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba0bb1e9-bb0a-4365-94e8-4007b872dfa0")
+		(uuid "bb0d989d-54cb-4fc5-bcca-d444335876d4")
 	)
 	(wire
 		(pts
@@ -1535,16 +1373,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 114.3 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7db9e39-edd0-4bc0-88f4-0e3e77b76c7d")
-	)
-	(wire
-		(pts
 			(xy 121.92 99.06) (xy 121.92 119.38)
 		)
 		(stroke
@@ -1552,16 +1380,6 @@
 			(type default)
 		)
 		(uuid "cd14dc8d-e86a-412f-a8ab-f272c409a5b0")
-	)
-	(wire
-		(pts
-			(xy 88.9 132.08) (xy 101.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa175d4-18c2-43bf-bd63-5aa4a6558a29")
 	)
 	(wire
 		(pts
@@ -1575,13 +1393,33 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 111.76) (xy 127 111.76)
+			(xy 88.9 104.14) (xy 101.6 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "faeadaf3-ece6-48a0-abd1-a4c477caecaf")
+	)
+	(wire
+		(pts
+			(xy 114.3 124.46) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fceba70c-d27c-4217-907b-aecc1040c52d")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe13b8d6-4145-4f2f-85c7-395cb413a571")
 	)
 	(global_label "MISO NRF"
 		(shape input)
@@ -1695,7 +1533,7 @@
 	)
 	(global_label "Row 0"
 		(shape input)
-		(at 127 71.12 0)
+		(at 127 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1705,7 +1543,7 @@
 		)
 		(uuid "3293ba37-7864-469d-9ecb-cff24c40463a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9118 71.12 0)
+			(at 135.9118 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1621,7 @@
 	)
 	(global_label "Column 3"
 		(shape input)
-		(at 173.99 76.2 0)
+		(at 173.99 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1793,7 +1631,7 @@
 		)
 		(uuid "55b3318a-44ec-4134-b3fe-47ed47a9bdce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.2278 76.2 0)
+			(at 186.2278 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1687,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 127 132.08 0)
+		(at 127 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1859,7 +1697,7 @@
 		)
 		(uuid "7e4a092c-b7e4-4c30-a4f1-bb09b77db5cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9118 132.08 0)
+			(at 135.9118 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +1929,7 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 127 91.44 0)
+		(at 127 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2101,7 +1939,7 @@
 		)
 		(uuid "d82e81f1-11b8-47ce-b2fb-9b3c300b73fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9118 91.44 0)
+			(at 135.9118 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +1973,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 127 111.76 0)
+		(at 127 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2145,7 +1983,7 @@
 		)
 		(uuid "dfe40439-a0d1-4646-aacd-b7d6b56d96ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9118 111.76 0)
+			(at 135.9118 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,270 +2034,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 88.9 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07eb8240-7666-49db-b6a3-5043ee3e9f31")
-		(property "Reference" "D13"
-			(at 91.44 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 91.44 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89d9cee6-13a7-4409-ac48-da5a8584cbc2")
-		)
-		(pin "1"
-			(uuid "5a853260-3386-4afc-aad7-4e851a8d8484")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 114.3 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "084eb8ad-e23b-484a-adb5-bd75bbc49dec")
-		(property "Reference" "D15"
-			(at 116.84 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 116.84 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 114.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 114.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e4e0152-4eab-4ab4-817a-1b3f7bc79478")
-		)
-		(pin "1"
-			(uuid "7731434c-882e-4ee1-842e-396548134642")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 101.6 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c8425d0-0ca1-4aec-874c-c4b445b10fcf")
-		(property "Reference" "D10"
-			(at 104.14 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 104.14 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4fee3d7d-0215-428a-b78b-e029a78a7353")
-		)
-		(pin "1"
-			(uuid "895bfc64-a278-4a20-9b3c-c2d8ffaaca6c")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D10")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2548,94 +2122,6 @@
 			(project ""
 				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 127 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25ac81f8-2bdf-40a3-b9c2-8a13008cae4f")
-		(property "Reference" "D4"
-			(at 129.54 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 129.54 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fce4b905-0b03-402b-b5ec-33495906148f")
-		)
-		(pin "1"
-			(uuid "ac37ea16-df05-4ec0-9677-9a9f1a8250ef")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2778,182 +2264,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 101.6 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49c01f7e-8c46-45d1-9f78-35410fc261ec")
-		(property "Reference" "D6"
-			(at 104.14 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 104.14 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ae83e58-6eae-451e-a19c-0f302cb037df")
-		)
-		(pin "1"
-			(uuid "b6aa81aa-24bc-4d72-bd4d-0301585edae6")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 88.9 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aadba01-04a2-42a3-92e7-60bc93148fa5")
-		(property "Reference" "D1"
-			(at 91.44 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 91.44 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1648d870-b3c6-4da3-a01d-962b553d94cf")
-		)
-		(pin "1"
-			(uuid "318a8351-9983-49c0-9433-2c3d5f417fb9")
-		)
-		(instances
-			(project ""
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 124.46 121.92 180)
 		(unit 1)
@@ -3016,94 +2326,6 @@
 			(project "CaiPad25_ESP32"
 				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
 					(reference "S16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 114.3 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ea55150-d710-4bcc-ab89-5c018bc318c9")
-		(property "Reference" "D7"
-			(at 116.84 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 116.84 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7486db0-e64d-43ee-bbd1-f86c14d52597")
-		)
-		(pin "1"
-			(uuid "97c66cd3-2797-4950-b802-2ab0d8cd8821")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3178,94 +2400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 127 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5503b142-c7d1-4309-887e-ec94be4ab4f5")
-		(property "Reference" "D16"
-			(at 129.54 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 129.54 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77caae0c-7ce9-48a9-96cc-d31e7342c960")
-		)
-		(pin "1"
-			(uuid "f347fd0e-b5ed-4e96-9823-05ae273ffc92")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 99.06 60.96 180)
 		(unit 1)
@@ -3328,94 +2462,6 @@
 			(project "CaiPad25_ESP32"
 				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
 					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 101.6 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67a47d9e-fafc-4a48-bad4-15d3b6899c16")
-		(property "Reference" "D14"
-			(at 104.14 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 104.14 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 101.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 101.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f902dd28-eb44-4427-b7a9-8be5089b8161")
-		)
-		(pin "1"
-			(uuid "a63a1c77-8f07-4eae-a31d-16424659289f")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -3626,94 +2672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 101.6 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8e8bc56-05af-48cf-94c4-e52b8efe1c24")
-		(property "Reference" "D2"
-			(at 104.14 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 104.14 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "609478b5-75bb-4389-8fc2-1ef2fc2daf38")
-		)
-		(pin "1"
-			(uuid "a5551a36-f48c-41fb-bbdb-707a673f0055")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 86.36 60.96 180)
 		(unit 1)
@@ -3776,94 +2734,6 @@
 			(project ""
 				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
 					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 114.3 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc9f256b-268a-4e82-97bc-dfe0f6fb25c8")
-		(property "Reference" "D11"
-			(at 116.84 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 116.84 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8c2e96a-6364-4b84-9dab-975112b8d7c7")
-		)
-		(pin "1"
-			(uuid "39cd0cdf-769c-48d4-98a1-7b0b3f301b97")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4018,94 +2888,6 @@
 			(project ""
 				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 114.3 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5923cba-10c5-4241-bbfe-f8aa70bb867d")
-		(property "Reference" "D3"
-			(at 116.84 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 116.84 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 114.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 114.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba2930a9-b1c7-4a70-bf2b-ca52c9c382c8")
-		)
-		(pin "1"
-			(uuid "a55e71ee-681a-452e-ac18-9e615f3cd310")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4384,182 +3166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 127 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e07f8af1-3578-4809-a604-0fdd3dc91f43")
-		(property "Reference" "D8"
-			(at 129.54 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 129.54 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 127 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 127 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1eec5b9-a2a1-4870-a78e-25a74f9f415a")
-		)
-		(pin "1"
-			(uuid "b2cec378-0fb1-4d8e-baa4-704028d3c8eb")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 88.9 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9fe311f-ff01-4349-997a-63346ea0e84d")
-		(property "Reference" "D9"
-			(at 91.44 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 91.44 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aac463c6-cd9b-44b0-ad9d-f3a1a4ba1295")
-		)
-		(pin "1"
-			(uuid "9d27c09d-c2a6-449e-a41e-3cbb587a83af")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 124.46 101.6 180)
 		(unit 1)
@@ -4758,182 +3364,6 @@
 			(project "CaiPad25_ESP32"
 				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
 					(reference "S10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 88.9 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fad6d6b6-114b-435c-9c01-12210fca3f81")
-		(property "Reference" "D5"
-			(at 91.44 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 91.44 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "812b1672-5b65-415e-a317-d6d8a965da7e")
-		)
-		(pin "1"
-			(uuid "007d3b19-2990-4d7b-b7a8-89b5eec0dc4e")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 127 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb88072b-3a1b-4dbc-961e-934a5a8cdb87")
-		(property "Reference" "D12"
-			(at 129.54 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Diode"
-			(at 129.54 109.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81cc6cf6-9554-4335-9b28-d5fa2989daac")
-		)
-		(pin "1"
-			(uuid "631f4edf-4626-4c74-908f-aabae31285bb")
-		)
-		(instances
-			(project "CaiPad25_ESP32"
-				(path "/008ae516-56ad-4e0e-ab9d-5d0d61fd267f"
-					(reference "D12")
 					(unit 1)
 				)
 			)
